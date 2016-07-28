@@ -1,3 +1,25 @@
+#logo{
+float: left;
+font-size: 2em;
+letter-spacing: -1px;
+font-weight: bold;
+font-family: 'Dancing Script', cursive;
+color: #38528E;
+}
+
+
+#logo:hover {
+color: #38528E;
+text-decoration: none;
+}
+#color-change {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.7em;
+}
+#color-change:hover {
+color: #38528E;
+text-decoration: none;
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
