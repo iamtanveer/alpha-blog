@@ -4,12 +4,19 @@ font-size: 2em;
 letter-spacing: -1px;
 font-weight: bold;
 font-family: 'Dancing Script', cursive;
-color: #38528E;
+color: #AB3E41;
+}
+
+#btn-font{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.7em;
+	text-align: center;
+	margin-top: 20px;
 }
 
 
 #logo:hover {
-color: #38528E;
+color: #AB3E41;
 text-decoration: none;
 }
 #color-change {
@@ -17,9 +24,21 @@ text-decoration: none;
 	font-size: 1.7em;
 }
 #color-change:hover {
-color: #38528E;
+color: #AB3E41;
 text-decoration: none;
 }
+
+@font-face {
+	font-family: 'Mohave-Bold';
+	src: url('Mohave-Bold.otf');
+}
+
+#title {
+    font-family: 'Mohave-Bold';
+}
+
+
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
