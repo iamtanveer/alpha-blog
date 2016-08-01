@@ -1,3 +1,7 @@
+$navbar-default-bg: #3E3E3E;
+
+
+
 #logo{
 float: left;
 font-size: 2em;
@@ -8,10 +12,10 @@ color: #AB3E41;
 }
 
 #btn-font{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 1.7em;
-	text-align: center;
-	margin-top: 20px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 1.7em;
+text-align: center;
+margin-top: 20px;
 }
 
 
@@ -20,8 +24,8 @@ color: #AB3E41;
 text-decoration: none;
 }
 #color-change {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 1.7em;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 1.7em;
 }
 #color-change:hover {
 color: #AB3E41;
@@ -29,12 +33,28 @@ text-decoration: none;
 }
 
 @font-face {
-	font-family: 'Mohave-Bold';
-	src: url('Mohave-Bold.otf');
+font-family: 'Mohave-Bold';
+src: url('Mohave-Bold.otf');
 }
 
 #title {
-    font-family: 'Mohave-Bold', 'Fjalla One', sans-serif;
+font-family: 'Mohave-Bold', 'Fjalla One', sans-serif;
+}
+
+footer {
+border-top: 1px solid #3E3E3E;
+color: #3E3E3E;
+text-decoration: none;
+
+}
+
+footer small {
+float: left;
+}
+
+footer ul {
+float: right;
+list-style: none;
 }
 
 
